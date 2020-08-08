@@ -34,18 +34,24 @@
 
         #header {
             margin: 10px;
-            height: 12vh;
+            height: 5vh;
             background-color: gray;
         }
 
         #banner {
-            margin: 0px 10px;
-            margin-bottom: 10px;
-            height: 100vh;
+            
+            margin: 10px 10px 5vh 10px;
+            /* margin-top: 10px;
+            margin-bottom: 5vh; */
+            height: 90vh;
             background-color: lightskyblue;
         }
         #section1,#section3{
-            border: 1px solid;
+            /* border: 1px solid; */
+            
+            display: flex; 
+             margin: 5vh;
+            justify-content: space-around;
         }
 
         #section1::after,#section3:after{
@@ -57,14 +63,25 @@
         }
 
         #section1 div{
-            float: left;
-
-            width: 25vh;
-            height: 25vh;
+            /* float: left; */
+            
+            width: 20vw;
+            height: 20vw;
             border-radius: 50%;
             color: greenyellow;
             background-color: goldenrod;
         }
+        #section3 div{
+            float: left;
+
+            width: 20vw;
+            height: 20vw;
+            
+            color: greenyellow;
+            background-color: goldenrod;
+        }
+
+
 
         #footer {
             margin: 10px;
@@ -82,16 +99,18 @@
         <div id="banner">
             Banner
         </div>
+        <h3>Section-1</h3>
         <section id="section1">
-            <h3>Section-1</h3>
+            
 
             <div ></div>
             <div ></div>
             <div ></div>
             <div ></div>
         </section>
+        <h3>Section-2</h3>
         <section>
-            <h3>Section-2</h3>
+            
             <div id="main">Main Content</div>
             <div id="article">
                 <div>Article-1</div>
@@ -100,18 +119,18 @@
             </div>
         </section>
 
-
+        <h3>Section-3</h3>
         <section id="section3">
-            <h3>Section-3</h3>
+            
 
             <div></div>
             <div></div>
             <div></div>
             <div></div>
         </section>
-
+       <h3>Section-4</h3>
         <section>
-            <h3>Section-4</h3>
+            
 
             <div id="footer">Footer</div>
         </section>
