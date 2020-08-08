@@ -10,13 +10,15 @@
             margin: 0px;
             padding: 0px;
         }
-        .container{
+
+        .container {
             padding: 0px;
             margin: 0px;
             width: 100%;
         }
+
         .container div {
-            
+
             display: flex;
             justify-content: center;
             align-items: center;
@@ -39,18 +41,19 @@
         }
 
         #banner {
-            
+
             margin: 10px 10px 5vh 10px;
-            /* margin-top: 10px;
-            margin-bottom: 5vh; */
             height: 90vh;
             background-color: lightskyblue;
         }
-        #section1,#section2,#section3{
-            /* border: 1px solid; */
+
+        #section1,
+        #section2,
+        #section3 {
             
-            display: flex; 
-             margin: 5vh;
+
+            display: flex;
+            margin: 5vh;
             justify-content: space-evenly;
         }
 
@@ -62,9 +65,9 @@
 
         } */
 
-        #section1 div{
+        #section1 div {
             /* float: left; */
-            
+
             width: 20vw;
             height: 20vw;
             border-radius: 50%;
@@ -72,26 +75,37 @@
             background-color: goldenrod;
         }
 
-        
-        #main{
-           height: 85vh;
-           width: 46vw;
-           background-color: purple;
+
+        #main {
+            height: 85vh;
+            width: 46vw;
+            background-color: purple;
         }
-        #article{
-           height: 85vh;
-           width: 46vw;
-           
+
+        #article {
+            height: 85vh;
+            width: 46vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            align-items: center;
+
         }
-        
+        #article div{
+            height: 27vh;
+            width: 46vw;
+            background-color: limegreen;
+        }
 
 
 
-        #section3 div{
+
+        #section3 div {
 
             width: 20vw;
             height: 20vw;
-            
+
             background-color: red;
         }
 
@@ -115,16 +129,16 @@
         </div>
         <h3>Section-1</h3>
         <section id="section1">
-            
 
-            <div ></div>
-            <div ></div>
-            <div ></div>
-            <div ></div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </section>
         <h3>Section-2</h3>
         <section id="section2">
-            
+
             <div id="main">Main Content</div>
             <div id="article">
                 <div>Article-1</div>
@@ -135,16 +149,16 @@
 
         <h3>Section-3</h3>
         <section id="section3">
-            
+
 
             <div></div>
             <div></div>
             <div></div>
             <div></div>
         </section>
-       <h3>Section-4</h3>
+        <h3>Section-4</h3>
         <section>
-            
+
 
             <div id="footer">Footer</div>
         </section>
