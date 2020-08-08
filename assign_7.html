@@ -11,9 +11,7 @@
         }
         .container{
             padding: 0px;
-        }
-.container div{
-    margin: 10px;
+    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,10 +32,11 @@ h3{
     height: 200px;
     background-color: lightgrey;
 }
-#section-3{
-width: 60px;
-height: 1000px;
-background-color: mediumblue;
+.section-3 div{
+    float: left;
+width: 50px;
+height: 70px;
+background-color: red;
 }
 #footer{
    
@@ -55,35 +54,39 @@ background-color: mediumblue;
     <div id="banner">
         Banner
     </div>
+    <section> 
     <h3>Section-1</h3>
 
-    <div class="section-1">
     <div id=""></div>
     <div id=""></div>
     <div id=""></div>
     <div id=""></div>
-</div>
+</section>
+<section>
     <h3>Section-2</h3>
-    <div class="section-2">
         <div id="main">Main Content</div>
         <div id="article">
             <div>Article-1</div>
             <div>Article-2</div>
             <div>Article-3</div>
+            </div>
+</section>
+        
 
-        </div>
-
-    </div>
+    <section>
     <h3>Section-3</h3>
-    <div id="section-3">
+    <div class="section-3">
         <div></div>
         <div></div>
         <div></div>
         <div></div>
-    </div>
+    </section>
+
+  <section>
     <h3>Section-4</h3>
 
     <div id="footer">Footer</div>
+</section>
 </div>
     
 </body>
