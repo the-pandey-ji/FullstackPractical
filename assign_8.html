@@ -54,11 +54,23 @@
            color: white;
            font-size: 10vh;
         }
-        #team h1{
+        .team{
             margin-top: 7vw;
             text-align: center;
             font-size: 7vh;
+            margin-bottom: 5vh;
 
+        }
+        #team {
+            margin-left: 10%;
+            width: 80%;
+             display: flex;
+            justify-content: space-evenly;
+        }
+        .t img{
+           float: left;
+            
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -87,12 +99,13 @@
         <h1>Practical-8</h1>
         <!-- <img src="img/emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="background image"> -->
     </div>
+    <h1 class="team">Team Members</h1>
     <div id="team">
-        <h1 >Team Members</h1>
-        <div><img src="img/1.png" alt=""></div>
-        <div><img src="img/2.png" alt=""></div>
-        <div><img src="img/3.png" alt=""></div>
-        <div><img src="img/9.png" alt=""></div>
+        
+        <div class="t"><img src="img/1.png" alt="member1"></div>
+        <div class="t"><img src="img/2.png" alt="member2"></div>
+        <div class="t"><img src="img/3.png" alt="member3"></div>
+        <div class="t"><img src="img/9.png" alt="member4"></div>
     </div>
 </body>
 </html>
