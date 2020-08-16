@@ -72,7 +72,98 @@
             
             border-radius: 50%;
         }
+        #section {
+            
 
+            display: flex;
+            margin: 1vh;
+            justify-content: space-evenly;
+        }
+        #main {
+            padding: 2.5vh; 
+            height: 70vh;
+            width: 46vw;
+            background-color: lightgreen;
+            font-size: large;
+            text-align: center;
+        }
+
+        #article {
+            height: 75vh;
+            width: 47vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            align-items: center;
+
+        }
+        #article div{
+            height: 24vh;
+            width: 47vw;
+            background-color: limegreen;
+            text-align: center;
+        }
+        #a1{
+            background-image: url(img/p1.jpg);
+            background-size: 100%;
+        }
+        #a2{
+            background-image: url(img/p2.jpeg);
+            background-size: 100%;
+        }
+        #a3{
+            background-image: url(img/p3.jpg);
+            background-size: 100% ;
+        }
+        #article div h1{
+            font-size: xx-large;
+        }
+        .box{
+            width: 300px;
+             height: 500px;
+             margin: 10px 10px;
+             background-color: white;
+             border-radius: 10px;
+             float: left;
+             padding: 12px;
+        }
+        .box h3{
+           color: red;
+           text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+           margin-top: 10px;
+
+        }
+
+        .box img{
+            width: 90%;
+            border: 5px solid rebeccapurple;
+            margin: 10px;
+            border-radius: 10px;
+            height: 200px;
+            
+        }
+         .box p{
+            color:black;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            margin: 20px;
+            max-width: 280px;
+
+        }
+        .box a{
+            display: block;
+            background-color: red;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+        .box a:hover{
+            background-color: royalblue;
+        }
     </style>
 </head>
 <body>
@@ -98,7 +189,6 @@
 
     <div id="b-img">
         <h1>Practical-8</h1>
-        <!-- <img src="img/emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="background image"> -->
     </div>
     <h1 class="heading">Team Members</h1>
     <div id="team">
@@ -109,16 +199,62 @@
         <div class="t"><img src="img/9.png" alt="member4"></div>
     </div>
     <h1 class="heading">About Us</h1>
-    <div id="about">
-        <div id="about-left">
+    <section id="section">
+
+        <div id="main">
             <h2>About Projects</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis neque rerum, tenetur dolores explicabo totam odit beatae exercitationem soluta. Doloribus labore voluptatibus porro? Dignissimos voluptatibus quibusdam nam excepturi, veritatis iste optio quia perspiciatis illo ipsa! Necessitatibus vero, quis eveniet suscipit quas aut animi aliquid nemo molestiae dolores iusto nam eum libero ad totam facilis ratione ex minima voluptates reprehenderit? Nulla eos fuga a, esse laboriosam sed dolorum laborum ipsum quia saepe consequatur veniam ad beatae porro autem pariatur voluptatem error vitae adipisci modi maxime! Soluta, animi. Porro laborum natus ea quis recusandae soluta perspiciatis, repellendus aliquam dignissimos fuga! Non?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error tenetur nobis fugit quam distinctio placeat similique dolorem! 
+                Eveniet quidem obcaecati repudiandae modi earum minima excepturi at numquam, sit repellendus nisi saepe hic magnam in, cumque eos 
+                officiis! Laborum minus cum eaque illum reprehenderit dolorem, voluptatibus illo, doloremque adipisci ut velit facere ad necessitatibus numquam 
+                vrum nobis tempora nulla iure? Voluptatum dicta at inventore eveniet 
+                 enim amet culpa molestiae, obcaecati aperiam facere ut vero possimus saepe in illo excepturi harum id. Enim praesentium cumque obcaecati, eum
+                 inventore,
+                 hic quisquam eius officiis consequatur recusandae architecto provident impedit ipsa odio corrupti at? Alias, aut debitis maxime neque dolorum obcaecati.
+                <br>
+                <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vero distinctio neque eligendi esse cumque quasi! Nam optio ipsa odit. Autem voluptates veritatis ratione illo suscipit? Ad, voluptatibus quam! Minus 
+            esse distinctio atis ve molestias quaerat cumque, nesciunt sapiente reprehenderit corporis eaque, fugit amet quia quos minus dolorum velit harum omnis ullam, beatae quibusdam consectetur tempore sunt. Quam laudantium voluptatem sapiente doloremque sit porro, voluptates asperiores quas ipsam molestiae placeat vel tenetur odio adipisci velit consectetur nisi dolor? Temporibus vel labore, eveniet beatae velit consequuntur laudantium perferendis doloremque quisquam voluptate voluptas, vitae explicabo voluptatibus sed nihil! Exercitationem maxime tenetur aliquam voluptatibus! Dolor quidem minima nemo iusto quaerat distinctio eos eligendi porro.</p>
         </div>
-        <div id="about-right">
-            <div class="about-left-inner"><img src="img/p1.jpg" alt="about1"></div>
-            <div class="about-left-inner"><img src="img/p2.jpeg" alt="about2"></div>
-            <div class="about-left-inner"><img src="img/p3.jpg" alt="about3"></div>
+        <div id="article">
+            <div id="a1"><h1>Project-1</h1></div>
+            <div id="a2"><h1>Project-2</h1></div>
+            <div id="a3"><h1>Project-3</h1></div>
         </div>
+    </section>
+    <!-- cards -->
+    <div class="box" >
+        <img src="img/html.png">
+        <h3>Introduction to HTML</h3>
+        <p>
+            HTML stands for Hyper Text Markup Language. It is used to design web pages using markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. 
+         </p>
+         <a href="https://the-pandey-ji.github.io/FullstackPractical/html_ps5.htm">Read More</a>
+    </div>
+    <div class="box" >
+        <img src="img/hero.jpg">
+        <h3>Introduction to CSS</h3>
+        <p>
+            Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable. CSS handles the look and feel part of a web page. Using CSS, you can control
+         </p>
+         <a href="https://the-pandey-ji.github.io/FullstackPractical/css_ps5.htm">Read More</a>
+    </div>
+   
+    <div class="box" >
+        <img src="img/jquery-featured-image.jpg">
+        <h3>Introduction to JavaScipt</h3>
+        <p>
+            JavaScript is a very powerful client-side scripting language. JavaScript is used mainly for enhancing the interaction of a user with the webpage. In other words, you can make your webpage more lively and interactive, with
+         </p>
+         <a href="https://the-pandey-ji.github.io/FullstackPractical/js_ps5.htm">Read More</a>
+    </div>
+    <div class="box" >
+        <img src="img/introduction to bootstrap or what is bootstrap total coding gyan.jpg">
+        <h3>Introduction to Bootstrap</h3>
+        <p>
+            Bootstrap is a free and open-source framework for creating websites and web applications. It's the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. As the web evolves
+        </p>
+         
+         <a href="https://the-pandey-ji.github.io/FullstackPractical/bootstrap_ps5.htm">Read More</a>
     </div>
 </body>
 </html>
