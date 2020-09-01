@@ -54,3 +54,16 @@ a i{
 .side ul li a:hover{ 
  border-left:solid 10px white ;
 }
+
+i{
+    
+    color: white;
+}
+.social{
+    justify-content: center;
+    margin-top: 200px;
+    border-bottom: 2px solid rgba(225,225,225,.1);
+font-size:30px ;
+display: flex;
+justify-content: space-evenly;
+}
