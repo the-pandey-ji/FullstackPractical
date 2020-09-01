@@ -52,7 +52,7 @@ a i{
     margin-right: 10px;
 }
 .side ul li a:hover{ 
- border-left:solid 10px white ;
+    border-left:solid 10px white ;
 }
 
 i{
@@ -63,7 +63,7 @@ i{
     justify-content: center;
     margin-top: 200px;
     border-bottom: 2px solid rgba(225,225,225,.1);
-font-size:30px ;
-display: flex;
-justify-content: space-evenly;
+    font-size:30px ;
+    display: flex;
+    justify-content: space-evenly;
 }
