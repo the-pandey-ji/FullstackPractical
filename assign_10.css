@@ -20,7 +20,9 @@
     color: white;
 }
 .banner{
-    height:70vh;
+    height:50vh;
     width:100%;
     background-image: url(img/laptop_keyboard_glow_181211_1280x720.jpg);
+    background-position-y: -30vh;
+    margin-bottom: 20px;
 }
