@@ -8,6 +8,7 @@
     display: flex;
     background-color: darkslategrey;
     height: 70px;
+    width: 100%;
     justify-content : center;
     line-height: 70px;
 
