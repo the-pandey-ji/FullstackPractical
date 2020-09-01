@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .header{
+    position: fixed;
     display: flex;
     background-color: darkslategrey;
     height: 70px;
@@ -26,4 +27,11 @@
     background-position-y: -30vh;
     margin-bottom: 20px;
     background-attachment: fixed;
+}
+.side{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 70px;
+    background-color: darkblue;
 }
