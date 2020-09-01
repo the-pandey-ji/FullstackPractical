@@ -117,3 +117,18 @@ i{
     visibility: hidden;
 } */
 
+@media screen and (max-width:768px)
+{
+    .side{
+        width: 100%;
+        text-align: center;
+    }
+    .header h1
+    {
+        display: none;
+    }
+    .social
+    {
+        margin-top: 120px;
+    }
+}
