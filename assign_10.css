@@ -21,13 +21,20 @@
 .header h1{
     color: white;
 }
+.content{
+    width: 100%;
+    transition: 0.7s;
+    float: right;
+
+}
 .banner{
-    height:50vh;
+    height:60vh;
     width:100%;
     background-image: url(img/laptop_keyboard_glow_181211_1280x720.jpg);
-    background-position-y: -30vh;
+    background-position-y: -15vh;
     margin-bottom: 20px;
     background-attachment: fixed;
+    transition: 0.7s;
 }
 .side{
     height: 100%;
@@ -35,6 +42,9 @@
     position: fixed;
     top: 70px;
     background-color: #353b48;
+    left: -100%;
+    transition: 0.7s;
+    z-index: 99;
 }
 .side ul li a{
     display: block;
@@ -67,3 +77,43 @@ i{
     display: flex;
     justify-content: space-evenly;
 }
+.sbtn, .hbtn{
+    font-size: 30px;
+    color: white;
+    position : fixed;
+    top:20px;
+    left:40px;
+}
+.hbtn{
+    opacity: 0;
+}
+
+#chk:checked ~ .side{
+    left : 0;
+} 
+
+#chk:checked ~ .sbtn
+{
+    opacity: 0;
+}
+#chk:checked ~ .hbtn
+{
+    opacity: 1;
+}
+
+#chk:checked ~ .content
+{
+     width: 80%;
+    
+}
+#chk:checked ~ .content .banner
+{
+     background-position-x: 10vw;
+}
+
+/* #chk{
+    position: absolute;
+    z-index: -10;
+    visibility: hidden;
+} */
+
