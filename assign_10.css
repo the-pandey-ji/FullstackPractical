@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header{
     display: flex;
     background-color: darkgray;
     height: 70px;
     justify-content : center;
+    line-height: 70px;
 
 }
 .header img{
