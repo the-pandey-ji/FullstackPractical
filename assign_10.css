@@ -51,3 +51,6 @@
 a i{
     margin-right: 10px;
 }
+.side ul li a:hover{ 
+ border-left:solid 10px white ;
+}
