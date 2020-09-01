@@ -25,4 +25,5 @@
     background-image: url(img/laptop_keyboard_glow_181211_1280x720.jpg);
     background-position-y: -30vh;
     margin-bottom: 20px;
+    background-attachment: fixed;
 }
