@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,19 +6,19 @@
 }
 
 body {
-    background-color: #aaaaaa;
+    background-color: skyblue;
 }
 
 h1 {
-    color: #2a3d66;
+    color: red;
+    text-shadow: black ;
     font-size: 300%;
     margin-top: 20px;
     width: 450px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 2px;
-    border-left: 2px solid yellow;
-    border-right: 2px solid yellow;
+
 }
 
 #templates {
