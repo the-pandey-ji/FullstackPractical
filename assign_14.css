@@ -177,6 +177,6 @@ form input {
 }
 
 /* for all */
-a {
-    text-decoration: none;
+a:focus {
+    outline: none;
 }
