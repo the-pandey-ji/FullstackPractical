@@ -11,7 +11,7 @@ body {
 
 h1 {
     color: red;
-    text-shadow: black ;
+    text-shadow:1.8px 1.8px rgba(0, 0, 0, 1);
     font-size: 300%;
     margin-top: 20px;
     width: 450px;
@@ -22,14 +22,13 @@ h1 {
 }
 
 #templates {
-    /* margin-top: 50px; */
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+
 }
 
 #templates > div {
-    margin: 50px 20px 50px;
+    margin: 70px 20px 50px;
     width: 350px;
     height: 400px;
     background-color: white;
@@ -37,7 +36,8 @@ h1 {
 
 #login .top {
     height: 100px;
-    background-image: linear-gradient(to right, #e36387, #fb7813);
+    background-image: linear-gradient(to right , #ee275f , #f3ef16);
+ 
 }
 h2 {
     line-height: 50px;
