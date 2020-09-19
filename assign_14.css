@@ -176,7 +176,18 @@ form input {
     box-shadow: 2px 2px 2px 2px #8393ab;
 }
 
-/* for all */
 a:focus {
     outline: none;
+
+}
+@media(max-width:1080px){
+    #templates {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #templates > div{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
