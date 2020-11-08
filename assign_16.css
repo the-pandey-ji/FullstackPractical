@@ -68,7 +68,7 @@ body{
 }
 .todo .check-btn{
     padding:5px;
-    color:rgb(116, 221, 116);
+    color:rgb(255, 255, 255);
     background-color: rgb(13, 146, 44);
     outline: none;
     border-radius: 5px;
@@ -76,8 +76,8 @@ body{
 .todo .delete-btn{
     padding:5px;
     margin: 10px;
-    color: red;
-    background-color: rgb(212, 135, 126);
+    color: white;
+    background-color: red;
     outline: none;
     border-radius: 5px;
 
